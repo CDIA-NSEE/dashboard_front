@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <header className="w-full lg:flex justify-between items-center bg-white h-20 px-6 hidden">
-        <div className="flex w-[60rem] m-auto">
+        <div className="flex w-[70rem] m-auto">
 
           <div className="flex relative">
             <div className="flex gap-6 m-auto">
