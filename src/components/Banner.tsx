@@ -1,11 +1,13 @@
-function Hero() {
+import cientist from "../assets/cientist.svg";
+function Banner() {
   return (
     <>
-      <section className="w-full h-screen bg-hero-back bg-cover flex px-24">
-        <div className="bg-blue-maua w-[70rem] h-[45rem] m-auto rounded-lg bg-opacity-40">
-          <div className="p-20">
-            <h1 className="text-white font-bold text-6xl">Lorem Ipsum</h1>
-            <p className="text-white mt-4 w-auto max-w-[27rem] h-auto max-h-20 break-words">
+      <section className="bg-blue-maua w-full h-[20rem] flex">
+        <div className="flex m-auto px-96">
+          <img src={cientist} alt="Cientist Logo" />
+          <div className="text-white ml-10">
+            <h1 className="text-4xl text-center font-bold">Lorem Ipsum</h1>
+            <p className="mt-2 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse aliquam, ligula at interdum placerat, nibh libero
               porttitor est, nec posuere nulla lacus eu nibh. Vivamus imperdiet
@@ -30,4 +32,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Banner;
